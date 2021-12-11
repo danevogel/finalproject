@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+}
+
+
+nav{
+
+    float: right;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #c654e5;
+    border-bottom: black;
+    box-sizing: border-box;
+    padding: 8px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 98;
+}
+
+.logo{
+    background-image: url("friend.gif");
+    float: left;
+    height: 35px;
+    width: 40px;
+    background-size: 100% auto;
+}
+
+.headmen{
+    text-decoration: none;
+    height: 150px;
+
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 120px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rebeccapurple;
+    transition: 0.5s;
+    z-index: 98;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.pic1{
+    height: 250px;
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("friendstv.jpg");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    border-style: solid;
+
+}
+
+.pic2{
+    height: 100px;
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("cheers.jpg");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    border-style: solid;
+
+}
+
+.pic3{
+    height: 300px;
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("seinfeld.jpg");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.pic4{
+    height: 200px;
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("thirty.jpg");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.piccontain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    background-color: #c654e5;
+    align-items: baseline;
+}
+
+.text1{
+    display: flex;
+    align-self: center;
+    color: black;
+    height: 200px;
+    width: 300px;
+   padding-top: 50px;
+    outline: black 10px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.text2{
+    display: flex;
+    align-self: center;
+    color: black;
+    height: 200px;
+    width: 300px;
+    outline: black 10px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+
+.bar2{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+a{
+
+}
+.container{
+    min-height: 200px;
+    width: 100%;
+    background-color: #c654e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    flex-wrap: wrap;
+}
+
+.containerhome{
+    min-height: 200px;
+    width: 100%;
+    background-color: #c654e5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    flex-wrap: wrap;
+}
+
+.container3 {
+    min-height: 800px;
+    width: 100%;
+    background-color: #c654e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+
+.box{
+    height: 100px;
+    width: 400px;
+    background-color: #c654e5;
+    margin: 20px 80px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.box2{
+    height: 20px;
+    width: 100%;
+    background-color: #764b8e;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-outline: #4A4D4A 2px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.rectangle2{
+    height: 150px;
+    width: 100%;
+    background-color: #c654e5;
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 5px #440028;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.contactcontainer {
+    border-radius: 5px;
+    background-color: #c654e5;
+    padding: 20px;
+
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 800px){
+    .headmen{
+        height: 40px;
+        width: 15%;
+    }
+    .logo{
+        opacity: 0;
+    }
+    .nav{
+        height: 70px;
+    }
+}
